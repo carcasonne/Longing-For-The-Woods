@@ -1,12 +1,17 @@
 //Picks a random quote per day
 function pickQuote() {
-    var today_expected = localStorage.today || 0; //default value of 0 for new users
-    var today_actual = new Date().getDate(); //current day
+    var quoteExists = localStorage.quote || false; //default value of 0 for new users
+    if(!quoteExists)
+    {
+        localStorage.quote = "And I shall count these /n The last days of the sun"
+        localStorage.author = "Carpe Noctem (The Shadow Cabinet)"
+    }
 
     console.log("picking quote");
 
     console.log("getting random quote");
     getRandomQuote();
+
     updateQuoteDisplay();
     updateAuthorDisplay();
 }
