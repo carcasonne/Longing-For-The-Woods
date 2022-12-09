@@ -4,19 +4,19 @@
 var oneQuotePerDay = false; //change quote daily?
 
 function pickBackground() {
-    var background0  =  "./pics/0/0.jpg";
-    var background1  =  "./pics/0/1.jpg";
-    var background2  =  "./pics/0/2.jpg";
-    var background3  =  "./pics/0/3.jpg";
-    var background4  =  "./pics/0/4.jpg";
-    var background5  =  "./pics/0/5.jpg";
-    var background6  =  "./pics/0/6.jpg";
-    var background7  =  "./pics/0/7.jpg";
-    var background8  =  "./pics/0/8.jpg";
-    var background9  =  "./pics/0/9.jpg";
-    var background10 =  "./pics/0/10.jpg";
-    var background11 =  "./pics/0/11.jpg";
-    var background12 =  "./pics/0/12.jpg";
+    var background0  =  "./pics/0/0-min.jpg";
+    var background1  =  "./pics/0/1-min.jpg";
+    var background2  =  "./pics/0/2-min.jpg";
+    var background3  =  "./pics/0/3-min.jpg";
+    var background4  =  "./pics/0/4-min.jpg";
+    var background5  =  "./pics/0/5-min.jpg";
+    var background6  =  "./pics/0/6-min.jpg";
+    var background7  =  "./pics/0/7-min.jpg";
+    var background8  =  "./pics/0/8-min.jpg";
+    var background9  =  "./pics/0/9-min.jpg";
+    var background10 =  "./pics/0/10-min.jpg";
+    var background11 =  "./pics/0/11-min.jpg";
+    var background12 =  "./pics/0/12-min.jpg";
 
     var background = [background0, background1, background2, background3, background4,
                       background5, background6, background7, background8, background9,

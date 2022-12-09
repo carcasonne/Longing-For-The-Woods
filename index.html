@@ -22,29 +22,28 @@
         <!--<script src="scripts/fetcher.js"></script>-->
 
         <img id="background" src="">
-            <div id="mainSection">
-                <div class="textwrapper">
-                    <div id="title"></div>
-                    <div id="dateWeather">
-                        <div id="date"></div>
-                    </div>
+        <div id="mainSection">
+            <div class="textwrapper">
+                <div id="title"></div>
+                <div id="dateWeather">
+                    <div id="date"></div>
                 </div>
             </div>
+        </div>
 
-            <div id="footer">
-                <div id="searchBox">
-                    <input id="searchbar" autocomplete="off" type="text" title="Search" autofocus onkeydown="search(event)" placeholder="Search Google">
-                    <div id="icon"></div>
-                </div>
-                <div class="textwrapper">
-                    <div id="quote"></div>
-                    <div id="author">~ <span id="authorName"></div>
-                </div>
+        <div id="footer">
+            <div id="searchBox">
+                <input id="searchbar" autocomplete="off" type="text" title="Search" autofocus onkeydown="search(event)" placeholder="Search Google">
+                <div id="icon"></div>
             </div>
+            <div class="textwrapper">
+                <div id="quote"></div>
+                <div id="author">~ <span id="authorName"></div>
             </div>
         </div>
 
         <script>
+            /* Yeah I made this public to share the database with anyone who wants it. Don't make me regret it :(*/
             const firebaseConfig = {
                 apiKey: "AIzaSyBxXhJVCLA1lgDcqU3KPC5qkKh36QNdyDY",
                 authDomain: "longing-for-the-woods.firebaseapp.com",

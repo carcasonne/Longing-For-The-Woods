@@ -6,7 +6,7 @@ A fantasy themed start page with inspiration from the metal band Wuthering Heigh
 
 ## Quotes
 
-Quotes are fetched via google firebase
+Quotes are fetched via a google firebase connection.
 
 # Credits
 

@@ -3,14 +3,10 @@ function pickQuote() {
     var today_expected = localStorage.today || 0; //default value of 0 for new users
     var today_actual = new Date().getDate(); //current day
 
-    if(oneQuotePerDay) {
-         if(today_expected != today_actual) {
-            generateQuote();
-            localStorage.today = today_actual;
-        }
-    } else {
-        getRandomQuote();
-    }
+    console.log("picking quote");
+
+    console.log("getting random quote");
+    getRandomQuote();
     updateQuoteDisplay();
     updateAuthorDisplay();
 }
@@ -63,7 +59,7 @@ function updateAuthorDisplay() {
 
 
 
-
+// I used to handle this locally, moved it to a firebase database
 /* 
 function generateQuote() {
     var authors_id = ["To Travel For Evermore", "Far From the Madding Crowd", "The Shadow Cabinet", "Salt"]; //insert ID's for wanted authors
