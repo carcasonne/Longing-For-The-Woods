@@ -3,7 +3,7 @@ function pickQuote() {
     var quoteExists = localStorage.quote || false; //default value of 0 for new users
     if(!quoteExists)
     {
-        localStorage.quote = "And I shall count these /n The last days of the sun"
+        localStorage.quote = "And I shall count these \n The last days of the sun"
         localStorage.author = "Carpe Noctem (The Shadow Cabinet)"
     }
 
